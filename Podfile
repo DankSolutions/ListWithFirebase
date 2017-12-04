@@ -6,5 +6,8 @@ target 'ListWithFirebase' do
   use_frameworks!
 
   # Pods for ListWithFirebase
-
+  pod 'Firebase'
+  pod 'Firebase/Core'
+  pod 'Firebase/Database'
+  pod 'Firebase/Auth'
 end
